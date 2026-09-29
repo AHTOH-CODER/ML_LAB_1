@@ -1,25 +1,25 @@
-﻿feature,feature_ru,model_title,coefficient
-age,Возраст,Линейная,3614.9754148279985
-bmi,Индекс массы тела,Линейная,2036.228122896719
-children,Количество детей,Линейная,516.8902471991497
-sex_male,Пол: мужчина,Линейная,-18.59169164100927
-smoker_yes,Курит,Линейная,23651.12885576124
-region_northwest,Регион: northwest,Линейная,-370.67732622780653
-region_southeast,Регион: southeast,Линейная,-657.8642965646391
-region_southwest,Регион: southwest,Линейная,-809.7993541824727
-age,Возраст,Гребневая,3612.053280688699
-bmi,Индекс массы тела,Гребневая,2034.80023363785
-children,Количество детей,Гребневая,517.2245491672941
-sex_male,Пол: мужчина,Гребневая,-14.641685542703966
-smoker_yes,Курит,Гребневая,23583.479382831123
-region_northwest,Регион: northwest,Гребневая,-368.4187019492179
-region_southeast,Регион: southeast,Гребневая,-650.4905487269317
-region_southwest,Регион: southwest,Гребневая,-806.3748146579544
-age,Возраст,Лассо,3540.115061887408
-bmi,Индекс массы тела,Лассо,1907.5177078154443
-children,Количество детей,Лассо,447.1992622078148
-sex_male,Пол: мужчина,Лассо,0.0
-smoker_yes,Курит,Лассо,23159.64808556007
-region_northwest,Регион: northwest,Лассо,0.0
-region_southeast,Регион: southeast,Лассо,-0.0
-region_southwest,Регион: southwest,Лассо,-44.37282748001296
+﻿feature_set,model,model_title,feature,label,coefficient
+original,linear,Линейная,age,Возраст,3614.9754148279994
+original,linear,Линейная,bmi,Индекс массы тела,2036.2281228967186
+original,linear,Линейная,children,Количество детей,516.890247199151
+original,linear,Линейная,sex_male,Пол: мужчина,-9.293101074402598
+original,linear,Линейная,smoker_yes,Курит,9558.481408916745
+original,linear,Линейная,region_northwest,Регион: northwest,-158.14098121115305
+original,linear,Линейная,region_southeast,Регион: southeast,-290.15704747206274
+original,linear,Линейная,region_southwest,Регион: southwest,-349.11067820886035
+original,ridge,Гребневая,age,Возраст,3607.6557023736
+original,ridge,Гребневая,bmi,Индекс массы тела,2032.4570483164857
+original,ridge,Гребневая,children,Количество детей,516.6295621879733
+original,ridge,Гребневая,sex_male,Пол: мужчина,-7.925559803805286
+original,ridge,Гребневая,smoker_yes,Курит,9539.873315568255
+original,ridge,Гребневая,region_northwest,Регион: northwest,-157.11874731972242
+original,ridge,Гребневая,region_southeast,Регион: southeast,-286.90461077005335
+original,ridge,Гребневая,region_southwest,Регион: southwest,-347.41590141593315
+original,lasso,Лассо,age,Возраст,3524.7299607635655
+original,lasso,Лассо,bmi,Индекс массы тела,1886.0534885998081
+original,lasso,Лассо,children,Количество детей,420.70622154277254
+original,lasso,Лассо,sex_male,Пол: мужчина,0.0
+original,lasso,Лассо,smoker_yes,Курит,9447.87392018722
+original,lasso,Лассо,region_northwest,Регион: northwest,0.0
+original,lasso,Лассо,region_southeast,Регион: southeast,-6.28265967511649
+original,lasso,Лассо,region_southwest,Регион: southwest,-96.39986338445203

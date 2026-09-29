@@ -1,9 +1,9 @@
-﻿feature,feature_ru,VIF
-sex_male,Пол: мужчина,1.6748298500388008
-region_southeast,Регион: southeast,1.3574188985359081
-smoker_yes,Курит,1.2280748199782276
-region_northwest,Регион: northwest,1.223453276638753
-region_southwest,Регион: southwest,1.2156864485917198
-bmi,Индекс массы тела,1.0886725109731088
-age,Возраст,1.0158431870969655
-children,Количество детей,1.0033475449092826
+﻿feature,label,VIF
+region_southeast,Регион: southeast,1.6522297050744428
+region_southwest,Регион: southwest,1.5294111558740764
+region_northwest,Регион: northwest,1.5188230422658708
+bmi,Индекс массы тела,1.1066297324286167
+age,Возраст,1.0168221490038107
+smoker_yes,Курит,1.0120736649061481
+sex_male,Пол: мужчина,1.0089001621005733
+children,Количество детей,1.004010642137024
